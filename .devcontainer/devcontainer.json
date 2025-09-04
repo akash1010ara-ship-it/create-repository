@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meri Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #667eea, #764ba2);
+      color: white;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+    button {
+      background: white;
+      color: #764ba2;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 20px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>👋 Welcome to My Website!</h1>
+  <p>Yeh meri pehli website hai jo GitHub Pages par chal rahi hai 🚀</p>
+  <button onclick="alert('Thank you for visiting! ❤️')">Click Me</button>
+</body>
+</html>
